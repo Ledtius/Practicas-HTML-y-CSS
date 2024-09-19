@@ -1,0 +1,18 @@
+body {
+  background-color: blue;
+  width: 100%;
+}
+.card {
+
+  text-align: center;
+  /* width: 100%; Allow the width to adjust between the min and max */
+  background-color: lightblue;
+  /*   padding: 100px; */
+  border: 12px solid darkblue;
+  padding: 30px;
+  box-sizing: border-box; /* Makes padding and border part of the width */
+}
+
+.card__texts{
+  font-size: 1rem;
+}
