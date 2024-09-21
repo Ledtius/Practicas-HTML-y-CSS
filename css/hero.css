@@ -1,0 +1,16 @@
+.boxes {
+  height: 20rem;
+  width: 45rem;
+  border: 1rem solid black;
+  background-color: blue;
+  position: relative;
+}
+
+.boxes__box {
+  width: 5rem;
+  height: 5rem;
+  border: 0.2rem solid white;
+  background-color: aqua;
+  position:fixed;
+  top: 0;
+}

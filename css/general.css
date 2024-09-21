@@ -6,4 +6,5 @@ html {
   font-family: "Poppins", sans-serif;
   box-sizing: content-box;
   font-size: 62.5%;
+  scroll-padding: 10px;
 }
