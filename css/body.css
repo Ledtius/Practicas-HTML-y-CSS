@@ -1,5 +1,6 @@
 body {
-  margin: 0;
+  margin: 100px 0 0 0;
   padding: 0;
-  height: 300vh;
+  height: 400vh;
+  z-index: 1;
 }
