@@ -11,7 +11,7 @@ body {
 
 .profile-cards {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   box-sizing: border-box;
 }
 
@@ -24,10 +24,13 @@ body {
   border-radius: 1rem;
   box-sizing: border-box;
   flex-grow: 1;
+  min-width: 20rem;
+
   flex-shrink: 1;
 }
 
 .profile-cards__image {
   width: 100%;
+  object-fit: cover;
   border-radius: 1rem;
 }
